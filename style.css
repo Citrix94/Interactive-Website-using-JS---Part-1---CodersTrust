@@ -1,0 +1,40 @@
+body{
+	background-color: #191919;
+}
+
+.container{
+	width: 500px;
+	min-height: 600px;
+	margin: 100px auto;
+}
+
+.block{
+	width: 480px;
+	min-height: 75px;
+	background: #DFE2DB;
+	margin: 20px auto;
+	padding: 10px 0;
+	border-radius: 5px;
+	text-align: center;
+	transition-duration: 0.7s;
+}
+.block > h1{
+	overflow: hidden;
+}
+
+.block:hover{
+	background: #FFF056;
+	width: 500px;
+}
+
+.block > a{
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	transition: all 0.7s ease-in-out;
+}
+
+.block > a:hover{
+	transform: color(red); 
+}
