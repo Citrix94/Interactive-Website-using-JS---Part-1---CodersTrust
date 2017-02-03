@@ -18,9 +18,6 @@ body{
 	text-align: center;
 	transition-duration: 0.7s;
 }
-.block > h1{
-	overflow: hidden;
-}
 
 .block:hover{
 	background: #FFF056;
@@ -32,9 +29,4 @@ body{
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	text-decoration: none;
-	transition: all 0.7s ease-in-out;
-}
-
-.block > a:hover{
-	transform: color(red); 
 }
