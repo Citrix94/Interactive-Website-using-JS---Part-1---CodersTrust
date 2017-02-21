@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body{
 	background-color: #191919;
 }
@@ -17,6 +22,7 @@ body{
 	border-radius: 5px;
 	text-align: center;
 	transition-duration: 0.7s;
+  cursor: pointer;
 }
 
 .block:hover{
@@ -24,9 +30,10 @@ body{
 	width: 500px;
 }
 
-.block > a{
+.block > h1{
 	color: black;
 	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 30px;
 	text-decoration: none;
+  margin: 20px 0 20px 0;
 }
